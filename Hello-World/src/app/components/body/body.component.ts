@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-body',
   templateUrl: './body.component.html',
   styleUrls: ['./body.component.css']
 })
-export class BodyComponent implements OnInit {
+export class BodyComponent {
 
-  constructor() { }
+  mostrar = true;
 
-  ngOnInit() {
-  }
-
+  frase: any = {
+    mensaje: 'Un gran poser requiere una gran responsabilidad',
+    autor: 'Ben Parker'
+  };
 }

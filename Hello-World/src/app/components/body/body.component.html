@@ -1,1 +1,24 @@
-<h1>Body Component</h1>
+<div class="row mt-5">
+    <div class="col">
+        <h1>*ngIf</h1>
+        <hr>
+        <div *ngIf="mostrar" class="card border-dark mb-3">
+            <div class="card-body text-dark">
+                <h5 class="card-title">{{frase.autor}}</h5>
+                <p class="card-text">{{frase.mensaje}}</p>
+            </div>
+        </div>
+        <button (click)="mostrar = !mostrar" class="btn btn-outline-dark btn-block">Ocultar/Mostrar</button>
+    </div>
+    <div class="col">
+        <h1>*ngIf</h1>
+        <hr>
+        <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+    </div>
+</div>
