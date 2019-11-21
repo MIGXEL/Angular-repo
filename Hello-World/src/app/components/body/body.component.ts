@@ -13,4 +13,6 @@ export class BodyComponent {
     mensaje: 'Un gran poser requiere una gran responsabilidad',
     autor: 'Ben Parker'
   };
+
+  personajes: string[] = ['Spiderman', 'Superman', 'Venom', 'Aquaman'];
 }
