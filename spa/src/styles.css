@@ -5,3 +5,55 @@ body {
 .img-casa {
     width: 100px;
 }
+
+.av-card-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.av-card {
+    max-width: 350px;
+    background: linear-gradient(#ea2340 10%, #1c1d24 90%);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 4px 15px -2px rgba(0, 0, 0, 1);
+    margin-bottom: 1rem;
+}
+
+.av-card img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.av-card-body h5 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.av-card-body {
+    position: relative;
+    bottom: 1rem;
+    border: 1px solid #ffffff;
+}
+
+.av-card-body hr {
+    background: #1c1d24;
+}
+
+.av-card-body p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.av-btn {
+    margin: 1rem 0;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 1px solid #ea2340;
+    background: transparent;
+    border-radius: 10px;
+    color: #ea2340;
+}

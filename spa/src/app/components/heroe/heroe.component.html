@@ -1,6 +1,6 @@
-<h1 class="text-left">{{ heroe.nombre }}</h1>
+<h1 class="text-left animated fadeIn">{{ heroe.nombre | uppercase }}</h1>
 
-<div class="row">
+<div class="row animated fadeIn">
     <div class="col-md-4">
         <img [src]="heroe.img" class="img-fluid" alt="">
         <br><br>
@@ -8,7 +8,7 @@
     </div>
 
     <div class="col-md-8">
-        <h3 class="mt-3">{{ heroe.nombre }} <small class="badge badge-dark badge-pill">{{ heroe.aparicion }}</small></h3>
+        <h3 class="mt-3">{{ heroe.nombre }} <small class="badge badge-dark badge-pill">{{ heroe.aparicion | date:'y' }}</small></h3>
         <hr>
         <p>
             {{ heroe.bio }}
